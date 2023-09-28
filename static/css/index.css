@@ -1,0 +1,45 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+	text-rendering:optimizeLegibility;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	background-color: black;
+}
+
+#nav-logo{
+	height: 100px;
+	width: auto;
+	margin-top:5px;
+}
+
+.nav-list{
+	float: right;
+	margin-right: 50px;
+}
+
+.nav-list-item{
+	display: inline-block;
+	font-size: 25px;
+	margin: 17px 30px;
+}
+
+.nav-list-item a{
+	color: darkgrey;
+	cursor: pointer;
+}
+
