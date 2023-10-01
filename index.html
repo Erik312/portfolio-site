@@ -6,7 +6,7 @@
 	<title>Erik Ramos</title>
 	<link rel="stylesheet" type="text/css" href="static/css/index.css">
 </head>
-<body>
+<body onload="CycleText()">
 
 	<header>
 		<nav>
@@ -17,6 +17,11 @@
 				<li class="nav-list-item"><a href="">Contact</a></li>
 			</ul>
 		</nav>
+
+		<h1 id="hero-name">Erik Ramos</h1>
+		<h2 id="hero-title">Software Engineer</h2>
+
+		<h4 id="spec-text"></h4>
 
 	</header>
 
@@ -31,6 +36,35 @@
 	<div class="content-container">
 		
 	</div>
+
+	<script type="text/javascript">
+		
+		var spec_list = ["Full-Stack Development","Mobile Application Development","Application Development","Software Development"];
+		var target_tag = document.getElementById("spec-text");
+		var is_end = false;
+		var spec_words = "Full-Stack Development | Web Development | Application Development | Software Development";
+		var i_index = 0;
+		function ex_show(){
+			alert("ok");
+		};
+
+		function SetText(txt){
+			target_tag.innerText = "";
+			target_tag.innerText = txt;
+
+		};
+
+		function CycleText(){
+			if( i_index < spec_words.length){
+				target_tag.innerHTML += spec_words.charAt(i_index);
+				i_index++;
+				setTimeout(CycleText,200);
+			}
+
+		};
+
+
+	</script>
 
 </body>
 </html>
