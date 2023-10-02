@@ -46,25 +46,23 @@
 	</div>
 
 	<div class="content-container">
+		<h2 id="contact-title">Contact</h2>
+		<ul class="contact-list">
+			<li class="contact-item"><a href=""><ion-icon name="mail-sharp"></ion-icon>erikram312@gmail.com</a></li>
+			<li class="contact-item"><a href="https://github.com/Erik312" target="_blank"><ion-icon name="logo-github"></ion-icon>github</a></li>
+			<li class="contact-item"><a href="https://www.linkedin.com/in/erik-ramos-585823247" target="_blank"><ion-icon name="logo-linkedin"></ion-icon>linkedin</a></li>
+		</ul>
 		
 	</div>
 
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 	<script type="text/javascript">
 		
-		var spec_list = ["Full-Stack Development","Mobile Application Development","Application Development","Software Development"];
 		var target_tag = document.getElementById("spec-text");
-		var is_end = false;
 		var spec_words = "Full-Stack Development | Web Development | Application Development | Software Development";
 		var i_index = 0;
-		function ex_show(){
-			alert("ok");
-		};
-
-		function SetText(txt){
-			target_tag.innerText = "";
-			target_tag.innerText = txt;
-
-		};
 
 		function CycleText(){
 			if( i_index < spec_words.length){
