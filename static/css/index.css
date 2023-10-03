@@ -87,11 +87,101 @@ header{
 
 }
 
+
+
+
+
+#projects-div{
+	background-color: black;
+	padding-bottom: 100px;
+
+}
+
+#projects-title{
+	padding-top:30px;
+	color: white;
+	text-align: center;
+	font-family: Helvetica,Ariel,sans-serif;
+	font-size: 40px;
+	text-decoration:underline;
+}
+
+
+.project-list{
+	text-align: center;
+	margin-top: 100px;
+	width: 100%;
+
+	
+}
+
+.project-item{
+	display: inline-block;
+	margin: 10px 10px;
+
+	
+	
+	
+	
+}
+
+.project-item-card{
+	height: 450px;
+	width: 400px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+
+
+}
+
+
+
+.card-image{
+	padding-top:3px;
+	height: 200px;
+	width: auto;
+}
+
+
+.card-title{
+	font-family: Helvetica,Ariel,sans-serif;
+	font-size: 20px;
+}
+
+.card-desc{
+	font-family: Helvetica,Ariel,sans-serif;
+	line-height: 30px;
+}
+
+.demo-button{
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 7px;
+	color:white;
+	background-color: black;
+	padding: 10px 17px;
+	font-family: Helvetica,Ariel,sans-serif;
+	margin: 20px 10px;
+	cursor: pointer;
+	text-align: center;
+	font-weight: bold;
+	transition:all .2s ease-in-out;
+
+
+}
+
+.demo-button:hover{
+	transform: scale(1.2);
+}
+
+
 #contact-title{
 	text-align: center;
 	font-family: Helvetica,Ariel,sans-serif;
 	font-size: 40px;
 	text-decoration: underline;
+
 }
 
 .contact-list{
@@ -99,14 +189,15 @@ header{
 	margin-top: 100px;
 	margin-bottom: 150px;
 
+
 }
 
 .contact-item {
 	text-align: center;
-	margin: 40px 20px;
 	cursor: pointer;
-	
 	text-decoration: none;
+	margin-top: 50px;
+	margin-bottom: 50px;
 
 }
 
@@ -117,3 +208,10 @@ header{
 	font-family: Helvetica,Ariel,sans-serif;
 
 }
+
+
+
+
+
+
+
