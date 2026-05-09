@@ -131,18 +131,27 @@ header{
 	height: 35rem;
 	width: 25rem;
 	background-color: white;
-	border: .5em solid black;
-	border-radius: 1em;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+	backdrop-filter: blur(10px);
+	transition: transform 0.3s ease;
 
 
 }
 
+.project-item-card:hover {
+  transform: translateY(-5px);
+
+}
 
 
 .card-image{
 	padding-top:.3em;
 	height: 12.5rem;
-	width: auto;
+	width: 100%;
+	margin-bottom: 18px;
+	border-radius: 9px;
 }
 
 
@@ -168,7 +177,7 @@ header{
 	cursor: pointer;
 	text-align: center;
 	font-weight: bold;
-	transition:all .2s ease-in-out;
+	transition:all .3s ease-in-out;
 
 
 }
