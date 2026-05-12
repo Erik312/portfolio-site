@@ -43,6 +43,11 @@ header{
 	cursor: pointer;
 	font-family: Helvetica, Ariel,sans-serif;
 	font-size: 2rem;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav-list-item a:hover{
+	color: firebrick;
 }
 
 
