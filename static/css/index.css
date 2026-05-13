@@ -178,19 +178,21 @@ header{
 	border-radius: 1.5rem;
 	color:white;
 	background-color: black;
-	padding: .5em 1em;
+	padding: .5em .5em;
 	font-family: Helvetica, Ariel, sans-serif;
-	margin: 1.7em .7em;
+	margin: .7em .7em;
 	cursor: pointer;
 	text-align: center;
 	font-weight: bold;
 	transition:all .3s ease-in-out;
+	height: auto;
+	width: 75%;
 
 
 }
 
 .demo-button:hover{
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 
 
