@@ -6,6 +6,7 @@ html,body{
 	text-rendering:optimizeLegibility;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
+	font-family: Helvetica, Ariel, sans-serif;
 
 }
 
@@ -41,7 +42,7 @@ header{
 .nav-list-item a{
 	color: darkgrey;
 	cursor: pointer;
-	font-family: Helvetica, Ariel,sans-serif;
+	font-family: Helvetica, Ariel, sans-serif;
 	font-size: 2rem;
 	transition: all 0.3s ease-in-out;
 }
@@ -56,27 +57,27 @@ header{
 	margin-top: 3.7em;
 	font-size: 5rem;
 	color: white;
-	font-family: Helvetica, Ariel,sans-serif;
+	font-family: Helvetica, Ariel, sans-serif;
 }
 
 #hero-title{
 	text-align: center;
 	font-size: 2.5rem;
 	color: white;
-	font-family: Helvetica,Ariel,sans-serif;
+	font-family: Helvetica,Ariel, sans-serif;
 }
 
 #spec-text{
 	color: white;
 	text-align: center;
 	margin-top: 2em;
-	font-family: Helvetica,Ariel,sans-serif;
+	font-family: Helvetica,Ariel, sans-serif;
 	font-size: 1.1rem;
 }
 
 #skills-title{
 	text-align: center;
-	font-family: Helvetica,Ariel,sans-serif;
+	font-family: Helvetica,Ariel, sans-serif;
 	font-size: 3rem;
 	text-decoration: underline;
 }
@@ -108,7 +109,7 @@ header{
 	padding-top:1em;
 	color: white;
 	text-align: center;
-	font-family: Helvetica,Ariel,sans-serif;
+	font-family: Helvetica, Ariel, sans-serif;
 	font-size: 3rem;
 	text-decoration:underline;
 }
@@ -161,12 +162,13 @@ header{
 
 
 .card-title{
-	font-family: Helvetica,Ariel,sans-serif;
+	font-family: Helvetica, Ariel, sans-serif;
 	font-size: 1.5rem;
+	text-decoration: underline;
 }
 
 .card-desc{
-	font-family: Helvetica,Ariel,sans-serif;
+	font-family: Helvetica, Ariel, sans-serif;
 	line-height: 2.5em;
 }
 
@@ -177,7 +179,7 @@ header{
 	color:white;
 	background-color: black;
 	padding: .5em 1em;
-	font-family: Helvetica,Ariel,sans-serif;
+	font-family: Helvetica, Ariel, sans-serif;
 	margin: 1.7em .7em;
 	cursor: pointer;
 	text-align: center;
@@ -194,7 +196,7 @@ header{
 
 #contact-title{
 	text-align: center;
-	font-family: Helvetica,Ariel,sans-serif;
+	font-family: Helvetica, Ariel, sans-serif;
 	font-size: 3rem;
 	text-decoration: underline;
 
@@ -221,7 +223,7 @@ header{
 	color: inherit;
 	text-decoration:none;
 	font-size: 25px;
-	font-family: Helvetica,Ariel,sans-serif;
+	font-family: Helvetica, Ariel, sans-serif;
 
 }
 
