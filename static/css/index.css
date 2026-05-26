@@ -205,26 +205,24 @@ header{
 }
 
 .contact-list{
-	text-align: center;
-	margin-top: 6.5em;
-	margin-bottom: 10em;
+	width: 50%;
+	margin: 100px auto;
 
 
 }
 
 .contact-item {
-	text-align: center;
 	cursor: pointer;
 	text-decoration: none;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin:25px auto;
+	width:fit-content;
 	transition: transform 0.3s ease;
+	
 }
 
 .contact-item:hover {
 	transform: translateY(-5px);
 }
-
 
 .contact-item , a {
 	color: inherit;
