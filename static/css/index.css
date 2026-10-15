@@ -24,9 +24,15 @@ header{
 }
 
 #nav-logo{
-	height: 10rem;
+	height: 5rem;
 	width: auto;
 	margin-top:1em;
+	margin-left: 3em;
+	transition: all 0.3s ease-in-out;
+}
+
+#nav-logo:hover{
+	transform: rotate(360deg);
 }
 
 .nav-list{
@@ -45,10 +51,12 @@ header{
 	font-family: Helvetica, Ariel, sans-serif;
 	font-size: 2rem;
 	transition: all 0.3s ease-in-out;
+	display: inline-block;
 }
 
 .nav-list-item a:hover{
-	color: firebrick;
+	color: orange;
+	transform: rotate(360deg);
 }
 
 
@@ -68,7 +76,7 @@ header{
 }
 
 #spec-text{
-	color: white;
+	color: orange;
 	text-align: center;
 	margin-top: 2em;
 	font-family: Helvetica,Ariel, sans-serif;
@@ -137,11 +145,11 @@ header{
 	height: 35rem;
 	width: 25rem;
 	background-color: white;
-	border: 1px solid black;
+	border: 5px solid orange;
 	border-radius: 10px;
 	box-shadow: 0 10px 30px rgba(0,0,0,0.25);
 	backdrop-filter: blur(10px);
-	transition: transform 0.3s ease;
+	transition: transform 0.3s ease-in-out;
 
 
 }
@@ -193,6 +201,9 @@ header{
 
 .demo-button:hover{
 	transform: scale(1.1);
+	color: black;
+	background-color: orange;
+	border: .5em solid orange;
 }
 
 
@@ -220,17 +231,27 @@ header{
 	
 }
 
-.contact-item:hover {
+.contact-img{
+	display: none;
+	height: 30px;
+	width: auto;
+}
+
+.contact-item:hover .contact-img{
 	transform: translateY(-5px);
+	display: inline-block;
 }
 
 .contact-item , a {
-	color: inherit;
+	color: orange;
 	text-decoration:none;
 	font-size: 25px;
 	font-family: Helvetica, Ariel, sans-serif;
 	
+	
 }
+
+
 
 #footer-div{
 	background-color: black;
